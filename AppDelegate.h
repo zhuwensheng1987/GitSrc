@@ -8,19 +8,15 @@
 //#define kAppURL @"http://22.188.12.161:8080/"
 
 //7月17日环境 --只能查商业贷款56bd20df"
-//#define kAppURL @"http://22.188.36.180:8080/"
+//#define kAppURL @"http://22.188.36.180:8080/"444
 
 #define kAppUpdataUrl @"http://open.boc.cn"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate,UIAlertViewDelegate>
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
-
+32
 @property (strong, nonatomic) UIWindow *window;
-
--(void)startLocation;
-//@property (readonly, nonatomic) BOCOPPayAuthorizeInfo * bocInfo;
-@property (readonly, nonatomic) BOCOPPay *bocPay;
-+ (AppDelegate*)appDelegate;
+12
 
 @end
 
